@@ -1,0 +1,62 @@
+[
+  {
+    "source": "archive-expired.pem#1",
+    "subject": "CN=localhost",
+    "issuer": "CN=localhost",
+    "self_issued": true,
+    "public_key_algorithm": "ECDSA",
+    "public_key_bits": 256,
+    "signature_algorithm_oid": "1.2.840.10045.4.3.2",
+    "signature_hash": "sha256",
+    "valid_from": "2026-08-07T14:01:39+00:00",
+    "valid_until": "2026-10-04T14:01:39+00:00",
+    "certificate_expiry": "2026-10-04",
+    "subject_alternative_names": [
+      "localhost",
+      "127.0.0.1"
+    ],
+    "sha256_fingerprint": "d5553d3a44192005807897248827f596b15da3af2743767951fd1a634b5e73ea",
+    "key_establishment": "unknown",
+    "evidence_scope": "Observed certificate bytes only; no chain, revocation, TLS exchange or business-data assessment."
+  },
+  {
+    "source": "portal-before.pem#1",
+    "subject": "CN=localhost",
+    "issuer": "CN=localhost",
+    "self_issued": true,
+    "public_key_algorithm": "RSA",
+    "public_key_bits": 2048,
+    "signature_algorithm_oid": "1.2.840.113549.1.1.11",
+    "signature_hash": "sha256",
+    "valid_from": "2026-10-05T14:01:39+00:00",
+    "valid_until": "2026-10-20T14:01:39+00:00",
+    "certificate_expiry": "2026-10-20",
+    "subject_alternative_names": [
+      "localhost",
+      "127.0.0.1"
+    ],
+    "sha256_fingerprint": "8f2deb34fc6c98c70b9ec69b99ba4cc0fbda042ce57f3cdc77fd1f88a0d5b1ff",
+    "key_establishment": "unknown",
+    "evidence_scope": "Observed certificate bytes only; no chain, revocation, TLS exchange or business-data assessment."
+  },
+  {
+    "source": "portal-after.pem#1",
+    "subject": "CN=localhost",
+    "issuer": "CN=localhost",
+    "self_issued": true,
+    "public_key_algorithm": "RSA",
+    "public_key_bits": 2048,
+    "signature_algorithm_oid": "1.2.840.113549.1.1.11",
+    "signature_hash": "sha256",
+    "valid_from": "2026-10-05T14:01:39+00:00",
+    "valid_until": "2027-10-06T14:01:39+00:00",
+    "certificate_expiry": "2027-10-06",
+    "subject_alternative_names": [
+      "localhost",
+      "127.0.0.1"
+    ],
+    "sha256_fingerprint": "ffd5ef5faf607aa811b388f1fa00d7d1fd04b657bf039be7b968f9bcb089830a",
+    "key_establishment": "unknown",
+    "evidence_scope": "Observed certificate bytes only; no chain, revocation, TLS exchange or business-data assessment."
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "portal-before": {
+    "endpoint": "127.0.0.1 (ephemeral loopback port)",
+    "hostname": "localhost",
+    "negotiated_protocol": "TLSv1.3",
+    "cipher_suite": "TLS_AES_256_GCM_SHA384",
+    "peer_certificate_sha256": "8f2deb34fc6c98c70b9ec69b99ba4cc0fbda042ce57f3cdc77fd1f88a0d5b1ff",
+    "hostname_and_expiry_verified": true,
+    "trust_scope": "Explicit trust of this lab certificate only; not public CA validation.",
+    "key_establishment": "unknown",
+    "key_exchange_note": "The Python TLS API used here does not report the negotiated key-exchange group; no inference from the certificate or cipher suite."
+  },
+  "portal-after": {
+    "endpoint": "127.0.0.1 (ephemeral loopback port)",
+    "hostname": "localhost",
+    "negotiated_protocol": "TLSv1.3",
+    "cipher_suite": "TLS_AES_256_GCM_SHA384",
+    "peer_certificate_sha256": "ffd5ef5faf607aa811b388f1fa00d7d1fd04b657bf039be7b968f9bcb089830a",
+    "hostname_and_expiry_verified": true,
+    "trust_scope": "Explicit trust of this lab certificate only; not public CA validation.",
+    "key_establishment": "unknown",
+    "key_exchange_note": "The Python TLS API used here does not report the negotiated key-exchange group; no inference from the certificate or cipher suite."
+  }
+}

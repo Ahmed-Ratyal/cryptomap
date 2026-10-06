@@ -1,0 +1,10 @@
+{
+  "assessment_date": "2026-10-06",
+  "certificates_inspected": 3,
+  "verified_local_tls_handshakes": 2,
+  "before_expiry": "2026-10-20",
+  "after_expiry": "2027-10-06",
+  "replacement_fingerprint_changed": true,
+  "private_keys_saved_in_output": false,
+  "elapsed_seconds": 0.518
+}
