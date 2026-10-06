@@ -4,7 +4,7 @@
 
 CryptoMap inspects local X.509 certificates, demonstrates certificate replacement and retesting, and produces explainable review reports. It connects measured technical properties to explicitly fictional financial-services scenarios while preserving uncertainty.
 
-The project explores Cryptography, Data Security, secure communications and risk-review themes named in [HSBC's Cyber Graduate advert](https://apply.careers.hsbc.com/emergingtalent/job/Sheffield-Cyber-Graduate-S1-4NB/1373794857/). HSBC's [public inventory research description](https://www.ventures.hsbc.com/view) provides the motivation: discovery can support current security and future quantum-resistant infrastructure. This is independent learning work, with AI-assisted implementation; it is not HSBC software or evidence of its internal technology stack.
+The project explores Cryptography, Data Security, secure communications and risk-review themes named in [HSBC's Cyber Graduate advert](https://apply.careers.hsbc.com/emergingtalent/job/Sheffield-Cyber-Graduate-S1-4NB/1373794857/). HSBC's [public inventory research description](https://www.ventures.hsbc.com/view) provides the motivation: discovery can support current security and future quantum-resistant infrastructure. This is an independent learning project inspired by that public description. Its implementation choices do not establish HSBC's internal technology stack.
 
 ## Demonstrated result
 
@@ -90,5 +90,7 @@ Next steps: approved discovery scope, per-field provenance, suitable tooling for
 - [HSBC cryptographic inventory paper](https://www.ventures.hsbc.com/-/media/ventures/250602-cryptographic-inventory-deriving-value-today-preparing-for-tomorrow-2025.pdf) — background, not an implemented bank methodology.
 - [NCSC PQC migration guidance](https://www.ncsc.gov.uk/guidance/pqc-migration-timelines).
 - [cryptography X.509 reference](https://cryptography.io/en/latest/x509/reference/) and [Python TLS reference](https://docs.python.org/3/library/ssl.html).
+
+[Development notes and design decisions](docs/design_decisions.md) explain implementation support and limitations.
 
 Licensed under the [MIT License](LICENSE).
